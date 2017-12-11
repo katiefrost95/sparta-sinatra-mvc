@@ -1,0 +1,5 @@
+<!--Imagine this page as your individual html page for each photo. so photo1.html, photo2.html etc-->
+<h1><%= @photo[:title] %></h1>
+<p><%= @photo[:body] %></p>
+<img src="<%= @photo[:img] %>" alt=""/>
+<a href="/photos/<%= @photo[:id] %>/edit">Edit</a>
